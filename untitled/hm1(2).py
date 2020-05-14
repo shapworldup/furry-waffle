@@ -1,3 +1,9 @@
-N = [42, 5, 7, 4, 5, 6, 3, 22]
-print(max(N))
-print()
+n = int(input('n = '))
+
+array = []
+for i in range(n):
+    x = int(input(f'x[{i}] = '))
+    array.append(x)
+
+array.sort()
+print(array[-2], array[-1])
